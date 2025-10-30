@@ -1,24 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+A modern, secure, and lightweight Web3 wallet built on the Solana blockchain using Next.js, React, and TypeScript.
+This dApp allows users to create, import, and manage Solana wallets, view balances, and connect seamlessly with decentralized applications (DApps).
+
+🚀 Features
+🔐 Wallet Creation & Import — Generate a new wallet from mnemonic or import an existing one.
+💰 Balance Viewer — Real-time SOL balance fetched from Solana RPC.
+🔗 DApp Connection — Securely connect with Solana-based DApps.
+🧩 Phantom-style Interface — Clean and intuitive UI similar to popular Web3 wallets.
+
+
+🌐 Next.js + Web3 Integration — Built with React, TypeScript, and Solana web3.js.
+🛠️ Transaction Support — Send and receive SOL or tokens easily.
+🧱 Network Switching — Connect to Devnet, Testnet, or Mainnet.
+
+
+
+🏗️ Tech Stack
+Frontend: Next.js, React, TypeScript
+Blockchain SDK: @solana/web3.js
+UI Framework: Tailwind CSS / Shadcn UI
+State Management: Zustand / Context API
+
+
+Wallet Integration: Solana Wallet Adapter
+
+
+
+⚙️ Installation
+git clone https://github.com/sumit2393/Sol-Web3App-Nextjs.git
+cd Sol-Web3App-Nextjs
+npm install
+npm run dev
+
+App will run at:
+👉 http://localhost:3000
+
+🧭 Environment Setup
+Create a .env.local file:
+NEXT_PUBLIC_SOLANA_NETWORK=devnet
+NEXT_PUBLIC_SOLANA_RPC=https://api.devnet.solana.com
+
+
+🧑‍💻 Usage
+
+Open the app in your browser.
+Create or import a wallet using your mnemonic phrase.
+View balance and transaction history.
+Connect to Solana DApps.
 
 ## Getting Started
 
-First, run the development server:
-
-```bash
+First,git clone https://github.com/sumit2393/Sol-Web3App-Nextjs.git
+cd Sol-Web3App-Nextjs
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🧰 Developer
+Sumit — Web3 Developer (React | TypeScript | Node.js | Solana | Next.js)
+🔗 GitHub: @sumit2393
 
 ## Learn More
 
@@ -29,8 +70,4 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
